@@ -22,17 +22,18 @@ $(document).ready(function () {
         {
                 //alert("I am here");
                 
+                $(".background").css("background-image","url(images/1.jpg)");
                 $home.fadeIn();
                 $about.fadeOut();
         });
-
+        
         $b.click(function ()
         {
                 //alert("I am here");
-
+                
+                $(".background").css("background-image","url(images/2.jpg)");
                 $about.fadeIn();
                 $home.fadeOut();
-                //$(".background").css("background-image","url(images/perfect.jpg)");
                
         });
 });

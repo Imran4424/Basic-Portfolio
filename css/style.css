@@ -120,10 +120,36 @@ a.active, .navigation a:hover
 	font-family: century gothic;
 	padding: 0 60px;
 	display: none;
+	overflow-y: auto;
 
 }
 
-.ui-transparent
+.about h1
 {
-	background-image: transparent;
+	font-size: 40px;
+	font-family: Georgia;
+	color: green;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.about p
+{
+	font-size: 20px;
+	font-family: Georgia;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.column
+{
+	float: left;
+	width: 50%;
+}
+
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
 }
