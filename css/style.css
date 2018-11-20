@@ -185,3 +185,25 @@ a.active, .navigation a:hover
 	color: white;
 }
 
+.projects 
+{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	color: black;
+	font-weight: normal;
+	font-family: century gothic;
+	padding: 0 60px;
+	display: none;
+	overflow-y: auto;
+
+}
+
+.projects h1 
+{
+	font-size: 40px;
+	font-family: Georgia;
+	color: green;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}

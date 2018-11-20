@@ -12,19 +12,21 @@ $(document).ready(function () {
         });
 
         var $a = $(".a"),
-                $b = $(".b"),
-                $c = $(".c"),
-                $d = $(".d"),
-                $home = $(".home"),
-                $about = $(".about");
+            $b = $(".b"),
+            $c = $(".c"),
+            $d = $(".d"),
+            $home = $(".home"),
+            $projects = $(".projects"),
+            $about = $(".about");
 
         $a.click(function ()
         {
                 //alert("I am here");
                 
                 $(".background").css("background-image","url(images/1.jpg)");
-                $home.fadeIn();
                 $about.fadeOut();
+                $projects.fadeOut();
+                $home.fadeIn();
         });
         
         $b.click(function ()
@@ -32,8 +34,20 @@ $(document).ready(function () {
                 //alert("I am here");
                 
                 $(".background").css("background-image","url(images/2.jpg)");
-                $about.fadeIn();
                 $home.fadeOut();
+                $projects.fadeOut();
+                $about.fadeIn();
+
                
+        });
+
+        $c.click(function () {
+                //alert("I am here");
+
+                $(".background").css("background-image", "url(images/4.jpg)");
+                $home.fadeOut();
+                $about.fadeOut();
+                $projects.fadeIn();
+
         });
 });
