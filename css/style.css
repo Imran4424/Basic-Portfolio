@@ -122,3 +122,8 @@ a.active, .navigation a:hover
 	display: none;
 
 }
+
+.ui-transparent
+{
+	background-image: transparent;
+}

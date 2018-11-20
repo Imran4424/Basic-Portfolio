@@ -32,5 +32,7 @@ $(document).ready(function () {
 
                 $about.fadeIn();
                 $home.fadeOut();
+                //$(".background").css("background-image","url(images/perfect.jpg)");
+               
         });
 });
