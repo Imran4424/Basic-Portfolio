@@ -19,7 +19,7 @@ html, body
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 1400px 800px;
 	position: relative;
 	overflow-y: auto;
 }
@@ -133,12 +133,39 @@ a.active, .navigation a:hover
 	padding-top: 5px;
 }
 
+.about h2
+{
+	font-size: 30px;
+	font-family: Georgia;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 100px;
+}
+
+.about ul
+{
+	padding-left: 250px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	font-style: bold;
+	font-family: Georgia;
+}
+
+.about li
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: Georgia;
+	color: blue;
+}
+
 .about p
 {
 	font-size: 20px;
 	font-family: Georgia;
 	padding-top: 5px;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 .column
