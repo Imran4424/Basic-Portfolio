@@ -174,8 +174,9 @@ a.active, .navigation a:hover
 	font-size: 25px;
 	font-family: Georgia;
 	font-style: bold;
-	padding-left: 200px;
-	padding: 5px;
+	padding-left: 150px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	color: purple;	
 }
 
