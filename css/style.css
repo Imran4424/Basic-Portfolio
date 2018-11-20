@@ -94,6 +94,7 @@ a.active, .navigation a:hover
 	color: black;
 	font-weight: normal;
 	font-family: verdana;
+	padding-bottom: 10px;
 }
 
 .home h1
@@ -168,15 +169,18 @@ a.active, .navigation a:hover
 	padding-bottom: 50px;
 }
 
-.column
+.column a,h3
 {
-	float: left;
-	width: 50%;
+	font-size: 25px;
+	font-family: Georgia;
+	font-style: bold;
+	padding-left: 200px;
+	padding: 5px;
+	color: purple;	
 }
 
-.row:after
+.column a:hover
 {
-	content: "";
-	display: table;
-	clear: both;
+	color: yellow;
 }
+
