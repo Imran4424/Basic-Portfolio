@@ -41,7 +41,7 @@ html, body
 	font-family: verdana;
 	font-weight: normal;
 	height: 95px;
-	margin: 5px;
+	margin: 10px;
 	float: left;
 	display: inline-block;
 	background-color: black;
@@ -81,7 +81,7 @@ a.active, .navigation a:hover
 	width: 930px;
 	min-height: 500px;
 	height: auto;
-	background-color: red;
+	/*background-color: red;*/
 	right: 0;
 	top: 20%;
 }
@@ -91,13 +91,33 @@ a.active, .navigation a:hover
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	color: white;
+	color: black;
 	font-weight: normal;
 	font-family: verdana;
-	text-transform: uppercase;
 }
 
 .home h1
 {
-	font-size: 100px;
+	font-size: 56px;
+	padding-right: 60px;
+	text-transform: uppercase;
+}
+
+.home h2
+{
+	font-size: 28px;
+	padding: 5px,0;
+	opacity: 0.6;
+}
+
+.about
+{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	color: black;
+	font-weight: normal;
+	font-family: century gothic;
+	padding: 0 60px;
+	display: none;
 }
