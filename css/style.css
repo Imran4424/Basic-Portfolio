@@ -28,14 +28,13 @@ html, body
 {
 	width: 350px;
 	height: auto;
-	background-color: gray;
 	position: absolute;
 
 	top: 20%;
 	left: 20px;
 }
 
-.navigation, a
+.navigation a
 {
 	text-decoration: none;
 	font-size: 28px;
@@ -74,4 +73,31 @@ a.active, .navigation a:hover
 .d
 {
 	width: 90%;
+}
+
+.content
+{
+	position: absolute;
+	width: 930px;
+	min-height: 500px;
+	height: auto;
+	background-color: red;
+	right: 0;
+	top: 20%;
+}
+
+.home
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	font-weight: normal;
+	font-family: verdana;
+	text-transform: uppercase;
+}
+
+.home h1
+{
+	font-size: 100px;
 }
