@@ -232,8 +232,6 @@ a.active, .navigation a:hover
 	font-family: century gothic;
 	padding: 0 60px;
 	display: none;
-	overflow-y: auto;
-
 }
 
 .projects h1 
