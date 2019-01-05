@@ -283,3 +283,7 @@ a.active, .navigation a:hover
 	padding-bottom: 10px;
 	color: purple;
 }
+
+.projects a:hover {
+	color: red;
+}
