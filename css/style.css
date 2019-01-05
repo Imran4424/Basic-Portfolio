@@ -35,7 +35,8 @@ html, body
 	left: 20px;
 }
 
-.socialId {
+.socialId 
+{
 	position: absolute;
 	height: 50px;
 	width: 50px;
@@ -104,6 +105,9 @@ a.active, .navigation a:hover
 	width: 90%;
 }
 
+
+/*   content section   */
+
 .content
 {
 	position: absolute;
@@ -115,6 +119,8 @@ a.active, .navigation a:hover
 	top: 20%;
 	overflow-y: auto;
 }
+
+/* home */
 
 .home
 {
@@ -140,6 +146,8 @@ a.active, .navigation a:hover
 	padding: 5px,0;
 	opacity: 0.6;
 }
+
+/* about */
 
 .about
 {
@@ -198,7 +206,7 @@ a.active, .navigation a:hover
 	padding-bottom: 50px;
 }
 
-.column a,h3
+.column h3
 {
 	font-size: 25px;
 	font-family: Georgia;
@@ -209,7 +217,7 @@ a.active, .navigation a:hover
 	color: purple;	
 }
 
-.column a:hover
+.column h3:hover
 {
 	color: red;
 }
@@ -233,8 +241,35 @@ a.active, .navigation a:hover
 	font-size: 40px;
 	font-family: Georgia;
 	color: green;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+.projects h3
+{
+	font-size: 25px;
+	font-family: Georgia;
+	color: black;
+
+	padding-left: 150px;
 	padding-bottom: 5px;
 	padding-top: 5px;
+}
+
+.projects h6 
+{
+	font-size: 15px;
+	font-family: Georgia;
+	color: black;
+
+	padding-left: 150px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.projects h5
+{
+	padding-bottom: 50px;
 }
 
 .projects a
@@ -242,6 +277,7 @@ a.active, .navigation a:hover
 	font-size: 15px;
 	font-family: Georgia;
 	font-style: bold;
+
 	padding-left: 150px;
 	padding-top: 5px;
 	padding-bottom: 10px;
