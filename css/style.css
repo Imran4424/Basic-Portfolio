@@ -4,6 +4,7 @@
 	padding: 0;
 }
 
+
 html, body
 {
 	width: 100%;
@@ -36,17 +37,24 @@ html, body
 
 .socialId {
 	position: absolute;
-	height: 200px;
-	width: 200px;
-	bottom: 0;
+	height: 50px;
+	width: 50px;
+	/* float: right; */
+	top: 0;
 	right: 0;
-	padding-bottom: 200px;
-	padding-left: 200px;
+	padding-right: 175px;
+	padding-top: 20px;
+
 }
 
-.socialId li {
-	padding-bottom: 10px;
+
+.white
+{
+	border-style: hidden;
+
+	border-width: 0.003mm;
 }
+
 
 .navigation a
 {
