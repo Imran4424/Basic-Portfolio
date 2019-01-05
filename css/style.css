@@ -222,6 +222,8 @@ a.active, .navigation a:hover
 	color: red;
 }
 
+/* projects */
+
 .projects 
 {
 	position: absolute;
@@ -239,7 +241,7 @@ a.active, .navigation a:hover
 	font-size: 40px;
 	font-family: Georgia;
 	color: green;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	padding-top: 5px;
 }
 
