@@ -1,6 +1,4 @@
 
-
-
 $(document).ready(function () {
         $("a").click(function () 
         { 
@@ -20,7 +18,7 @@ $(document).ready(function () {
             $home = $(".home"),
             $projects = $(".projects"),
             $about = $(".about");
-            $white = $(".white")
+            
 
         $a.click(function ()
         {
@@ -32,7 +30,6 @@ $(document).ready(function () {
                 $projects.fadeOut();
                 $home.fadeIn();
 
-                $white.css("border-style", "hidden");
         });
         
         $b.click(function ()
@@ -46,7 +43,6 @@ $(document).ready(function () {
                 $projects.fadeOut();
                 $about.fadeIn();
                 
-                $white.css("border-style", "solid");
                 
         });
         
@@ -57,7 +53,5 @@ $(document).ready(function () {
                 $home.fadeOut();
                 $about.fadeOut();
                 $projects.fadeIn();
-                
-                $white.css("border-style", "solid");
         });
 });
