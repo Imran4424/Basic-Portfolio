@@ -34,6 +34,20 @@ html, body
 	left: 20px;
 }
 
+.socialId {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 200px;
+	padding-left: 200px;
+}
+
+.socialId li {
+	padding-bottom: 10px;
+}
+
 .navigation a
 {
 	text-decoration: none;
@@ -88,7 +102,6 @@ a.active, .navigation a:hover
 	right: 0;
 	top: 20%;
 	overflow-y: auto;
-	
 }
 
 .home
