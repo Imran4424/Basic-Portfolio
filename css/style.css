@@ -16,7 +16,7 @@ html, body
 
 .background
 {
-	background-image: url(../images/1.jpg);
+	background-image: url(../images/1.JPG);
 	min-height: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -214,7 +214,7 @@ a.active, .navigation a:hover
 
 .projects a
 {
-	font-size: 25px;
+	font-size: 15px;
 	font-family: Georgia;
 	font-style: bold;
 	padding-left: 150px;
