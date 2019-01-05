@@ -33,9 +33,10 @@ $(document).ready(function () {
         $b.click(function ()
         {
                 //alert("I am here");
+                // $(".background").css("background-image", "url(images/4.jpg)");
+                // $(".background").css("filter","blur(5px)");
                 
-                $(".background").css("background-image","url(images/2.jpg)");
-                $(".background").css("filter","blur(5px)");
+                $(".background").css("background-image","none");
                 $home.fadeOut();
                 $projects.fadeOut();
                 $about.fadeIn();
@@ -46,8 +47,7 @@ $(document).ready(function () {
         $c.click(function () {
                 //alert("I am here");
                 
-                $(".background").css("background-image", "url(images/4.jpg)");
-                $(".background").css("filter","blur(5px)");
+                $(".background").css("background-image", "none");
                 $home.fadeOut();
                 $about.fadeOut();
                 $projects.fadeIn();

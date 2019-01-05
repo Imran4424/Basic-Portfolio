@@ -56,6 +56,9 @@ a.active, .navigation a:hover
 	background-color: white;
 	color: black;
 	width: 100%;
+
+	border-style: solid;
+	border-color: cadetblue;
 }
 
 .a
@@ -158,7 +161,7 @@ a.active, .navigation a:hover
 	padding-top: 5px;
 	padding-bottom: 5px;
 	font-family: Georgia;
-	color: blue;
+	color: green;
 }
 
 .about p
@@ -182,7 +185,7 @@ a.active, .navigation a:hover
 
 .column a:hover
 {
-	color: white;
+	color: red;
 }
 
 .projects 
