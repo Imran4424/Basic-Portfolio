@@ -24,8 +24,7 @@ $(document).ready(function () {
         {
                 //alert("I am here");
                 
-                $(".background").css("background-image","url(images/1.jpg)");
-                $(".background").css("filter","blur(0px)");
+                $("body").css("background-image","url(images/1.jpg)");
                 $about.fadeOut();
                 $projects.fadeOut();
                 $home.fadeIn();
@@ -35,10 +34,10 @@ $(document).ready(function () {
         $b.click(function ()
         {
                 //alert("I am here");
-                // $(".background").css("background-image", "url(images/4.jpg)");
-                // $(".background").css("filter","blur(5px)");
+                // $("body").css("background-image", "url(images/4.jpg)");
+                // $("body").css("filter","blur(5px)");
                 
-                $(".background").css("background-image","none");
+                $("body").css("background-image","none");
                 $home.fadeOut();
                 $projects.fadeOut();
                 $about.fadeIn();
@@ -49,7 +48,7 @@ $(document).ready(function () {
         $c.click(function () {
                 //alert("I am here");
                 
-                $(".background").css("background-image", "none");
+                $("body").css("background-image", "none");
                 $home.fadeOut();
                 $about.fadeOut();
                 $projects.fadeIn();
