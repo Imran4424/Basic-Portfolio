@@ -5,6 +5,7 @@
 }
 
 
+
 html, body
 {
 	width: 100%;
@@ -30,7 +31,7 @@ html, body
 	width: 350px;
 	height: auto;
 	position: absolute;
-
+	
 	top: 20%;
 	left: 20px;
 }
@@ -45,7 +46,7 @@ html, body
 	right: 0;
 	padding-right: 230px;
 	padding-top: 20px;
-
+	
 }
 
 .socialId td
@@ -56,7 +57,7 @@ html, body
 .white
 {
 	border-style: hidden;
-
+	
 	border-width: 0.003mm;
 }
 
@@ -83,7 +84,7 @@ a.active, .navigation a:hover
 	background-color: white;
 	color: black;
 	width: 100%;
-
+	
 	border-style: solid;
 	border-color: cadetblue;
 }
@@ -159,7 +160,7 @@ a.active, .navigation a:hover
 	font-family: century gothic;
 	padding: 0 60px;
 	display: none;
-
+	
 }
 
 .about h1
@@ -250,7 +251,7 @@ a.active, .navigation a:hover
 	font-size: 25px;
 	font-family: Georgia;
 	color: black;
-
+	
 	padding-left: 150px;
 	padding-bottom: 5px;
 	padding-top: 5px;
@@ -261,7 +262,7 @@ a.active, .navigation a:hover
 	font-size: 15px;
 	font-family: Georgia;
 	color: black;
-
+	
 	padding-left: 150px;
 	padding-bottom: 5px;
 	padding-top: 5px;
@@ -277,7 +278,7 @@ a.active, .navigation a:hover
 	font-size: 15px;
 	font-family: Georgia;
 	font-style: bold;
-
+	
 	padding-left: 150px;
 	padding-top: 5px;
 	padding-bottom: 10px;
@@ -287,3 +288,55 @@ a.active, .navigation a:hover
 .projects a:hover {
 	color: red;
 }
+
+
+/* responsive code start */
+
+
+
+/* rotation */
+
+/* #container {
+	display: block;
+}
+
+@media only screen and (orientation:portrait) {
+
+	#container {
+
+		height: 100vw;
+
+		-webkit-transform: rotate(90deg);
+
+		-moz-transform: rotate(90deg);
+
+		-o-transform: rotate(90deg);
+
+		-ms-transform: rotate(90deg);
+
+		transform: rotate(90deg);
+
+	}
+
+}
+
+@media only screen and (orientation:landscape) {
+
+	#container {
+
+		-webkit-transform: rotate(0deg);
+
+		-moz-transform: rotate(0deg);
+
+		-o-transform: rotate(0deg);
+
+		-ms-transform: rotate(0deg);
+
+		transform: rotate(0deg);
+
+	}
+
+} */
+
+
+/* responsive code end  */
