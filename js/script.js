@@ -1,5 +1,8 @@
 
-$(document).ready(function () {
+$(document).ready(function () 
+{
+        
+
         $("a").click(function () 
         { 
                 //alert("I am clicked");
@@ -9,6 +12,8 @@ $(document).ready(function () {
                 $("a").removeClass("active");
 
                 $(selected).addClass("active");
+
+
         });
 
         var $a = $(".a"),
@@ -17,7 +22,9 @@ $(document).ready(function () {
             $d = $(".d"),
             $home = $(".home"),
             $projects = $(".projects"),
+            $blog = $(".blog"),
             $about = $(".about");
+            
             
 
         $a.click(function ()
@@ -27,6 +34,7 @@ $(document).ready(function () {
                 $("body").css("background-image","url(images/1.jpg)");
                 $about.fadeOut();
                 $projects.fadeOut();
+                $blog.fadeOut();
                 $home.fadeIn();
 
         });
@@ -40,17 +48,32 @@ $(document).ready(function () {
                 $("body").css("background-image","none");
                 $home.fadeOut();
                 $projects.fadeOut();
+                $blog.fadeOut();
                 $about.fadeIn();
                 
                 
         });
         
-        $c.click(function () {
+        $c.click(function () 
+        {
                 //alert("I am here");
                 
                 $("body").css("background-image", "none");
                 $home.fadeOut();
                 $about.fadeOut();
+                $blog.fadeOut();
                 $projects.fadeIn();
         });
+        
+        $d.click(function () 
+        {
+                //alert("I am here");
+                
+                $("body").css("background-image", "none");
+                $home.fadeOut();
+                $about.fadeOut();
+                $projects.fadeOut();
+                $blog.fadeIn();
+        });
+
 });
