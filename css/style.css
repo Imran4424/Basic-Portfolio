@@ -291,6 +291,72 @@ a.active, .navigation a:hover
 	color: red;
 }
 
+/* blog */
+
+.blog 
+{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	color: black;
+	font-weight: normal;
+	font-family: century gothic;
+	padding: 0 60px;
+	display: none;
+}
+
+.blog h1 
+{
+	font-size: 40px;
+	font-family: Georgia;
+	color: green;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	padding-right: 250px;
+}
+
+.blog p
+{
+	font-size: 25px;
+	font-family: Georgia;
+	color: black;
+	
+	padding-left: 150px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.blog h6 
+{
+	font-size: 15px;
+	font-family: Georgia;
+	color: black;
+	
+	padding-left: 150px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.blog h5
+{
+	padding-bottom: 50px;
+}
+
+.blog a
+{
+	font-size: 15px;
+	font-family: Georgia;
+	font-style: bold;
+	
+	padding-left: 150px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	color: purple;
+}
+
+.blog a:hover {
+	color: red;
+}
 
 /* responsive code start */
 
