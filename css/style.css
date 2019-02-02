@@ -73,7 +73,7 @@ body
 	font-size: 28px;
 	font-family: verdana;
 	font-weight: normal;
-	max-height: 95px;
+	max-height: 80px;
 	margin: 10px;
 	float: left;
 	display: inline-block;
@@ -111,6 +111,11 @@ a.active, .navigation a:hover
 	width: 90%;
 }
 
+.e
+{
+	width: 75%;
+}
+
 
 /*   content section   */
 
@@ -118,7 +123,7 @@ a.active, .navigation a:hover
 {
 	position: absolute;
 	width: 930px;
-	min-height: 500px;
+	min-height: 510px;
 	height: auto;
 	/*background-color: red;*/
 	right: 0;

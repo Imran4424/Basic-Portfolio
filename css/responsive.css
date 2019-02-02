@@ -4,6 +4,23 @@
         }
 }
 
+@media only screen and (min-width:1500px)
+{
+        .content 
+        {
+                width: 1100px;
+                min-height: 550px;
+
+        }
+}
+
+@media only screen and (min-width:1700px)
+{
+        .content {      
+                min-height: 620px;
+        }
+}
+
 @media only screen and (min-width: 1920px) {
 
         .socialId {
@@ -29,7 +46,7 @@
         .content {
                 position: absolute;
                 width: 1500px;
-                min-height: 720px;
+                min-height: 750px;
                 height: auto;
 
         }

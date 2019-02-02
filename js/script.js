@@ -20,9 +20,11 @@ $(document).ready(function ()
             $b = $(".b"),
             $c = $(".c"),
             $d = $(".d"),
+            $e = $(".e"),
             $home = $(".home"),
             $projects = $(".projects"),
             $blog = $(".blog"),
+            $albums = $(".albums"),
             $about = $(".about");
             
             
@@ -35,6 +37,7 @@ $(document).ready(function ()
                 $about.fadeOut();
                 $projects.fadeOut();
                 $blog.fadeOut();
+                $albums.fadeOut();
                 $home.fadeIn();
 
         });
@@ -49,6 +52,7 @@ $(document).ready(function ()
                 $home.fadeOut();
                 $projects.fadeOut();
                 $blog.fadeOut();
+                $albums.fadeOut();
                 $about.fadeIn();
                 
                 
@@ -62,6 +66,7 @@ $(document).ready(function ()
                 $home.fadeOut();
                 $about.fadeOut();
                 $blog.fadeOut();
+                $albums.fadeOut();
                 $projects.fadeIn();
         });
         
@@ -73,7 +78,20 @@ $(document).ready(function ()
                 $home.fadeOut();
                 $about.fadeOut();
                 $projects.fadeOut();
+                $albums.fadeOut();
                 $blog.fadeIn();
+        });
+
+        $e.click(function () 
+        {
+                //alert("I am here");
+                
+                $("body").css("background-image", "none");
+                $home.fadeOut();
+                $about.fadeOut();
+                $projects.fadeOut();
+                $blog.fadeOut();
+                $albums.fadeIn();
         });
 
 });
